@@ -19,3 +19,4 @@ Below are some keys that are crucial to be defined, due to its role and/or relat
 
 IMPORTANT NOTES: 
 - The update feature implemented in this program permits the manipulation of non-primary keys without constraints, although some variable interdependencies do exist and are explained above. It is therefore important for the Admin user to take heed of the interplays that each variable has before conducting the update operation. These constraint mechanisms are active for customer features
+- Admin credentials are located in credList in collection.py or simply input 4444 to access the program as admin
