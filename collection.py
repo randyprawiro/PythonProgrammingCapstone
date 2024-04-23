@@ -1,3 +1,5 @@
+# Two collection data types are defined here, bookList is the main data structure that records book entries, while credList stores admin credentials for access to admin user privileges
+
 bookList = [{"index":1001,"title":"Crime And Punishment","author":"Fyodor Dostoevsky","pages":720,"allowed_rent_days":7,"price_per_day":2000, "rentable":True,"days_being_rented":0}, 
            
            {"index":1002,"title":"Infinite Jest","author":"David Foster Wallace","pages":1079,"allowed_rent_days":14,"price_per_day":4000, "rentable":True,"days_being_rented":0}, 
