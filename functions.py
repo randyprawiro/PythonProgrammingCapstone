@@ -1,3 +1,5 @@
+# All Functions For The Program Are Defined Here
+
 from tabulate import tabulate
 
 def init_interface():
