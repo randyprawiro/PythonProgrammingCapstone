@@ -1,4 +1,5 @@
-#Main Program
+# Main Program
+# Installation of collection.py, functions.py, and the Python tabulate library are necessary to run this program
 
 import functions as f
 import collection as c
