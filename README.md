@@ -13,9 +13,9 @@ Below are some keys that are crucial to be defined, due to its role and/or relat
 
 3. 'price_per_day': Denotes the daily fee charged to the customer for a particular book they are renting
 
-4. 'rentable': Boolean that indicates whether a book is currently available for rent or not. Indicates that a customer is currently renting the book if specified as False, and therefore, constrains days_being_rented as being greater than zero when False and equal to zero when True
+4. 'rentable': Boolean that indicates whether a book is currently available for rent or not. Indicates that a customer is currently renting the book if specified as False, and therefore, constrains days_being_rented as being greater than zero when False and equal to zero when True. This variable also flips to True whenever a customer returns a rented book and to False once a book is rented out. This field is initilized as True whenever a new book entry is created
 
-5. 'days_being_rented': The amount of days that a customer is currrently renting the book for. It signals that a customer is currently renting the book when its value is larger than zero and not being rented out if zero. Also constrains rentable to False if larger than zero, and constrains it to True if equal to zero
+5. 'days_being_rented': The amount of days that a customer is currrently renting the book for. It signals that a customer is currently renting the book when its value is larger than zero and not being rented out if zero. Also constrains rentable to False if larger than zero, and constrains it to True if equal to zero. This key is initialized as zero whenever a new book entry is created
 
 IMPORTANT NOTES: 
 - The update feature implemented in this program permits the manipulation of non-primary keys without constraints, although some variable interdependencies do exist and are explained above. It is therefore important for the Admin user to take heed of the interplays that each variable has before conducting the update operation. These constraint mechanisms are active for customer features
